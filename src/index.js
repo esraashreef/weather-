@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Snowfall from 'react-snowfall'
 
 ReactDOM.render(
   <React.StrictMode>
+    
+   <Snowfall snowflakeCount={350} />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
